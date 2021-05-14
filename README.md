@@ -1,1 +1,1 @@
-# -CompetitiveProgramming
+# 競技プログラミング練習用リポジトリ
