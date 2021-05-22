@@ -27,6 +27,9 @@ function calculateDifferenceInPoints(N: number, cards: number[]): number {
   function desc(a: number, b: number) {
     return a - b;
   }
+  // Array.sort => 配列の各要素を文字列に変換して並び替え
+  // 数値 => 英語 => 日本語の順でソートされる
+  // 関数を引数に渡すことで数値の昇順・降順も可能になる
   cards.sort(desc)
 
   for (let i = 0; i < N; i++) {
