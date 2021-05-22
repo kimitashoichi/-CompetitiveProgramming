@@ -30,7 +30,7 @@ function countDifferentValues (N: number, d: number[]): number {
 
   // 最初に作成した配列の各要素の和が入力された数値の種類数になる
   for (let i = 0; i < 100; i++) {
-    // 作成した配列で値が入っていない場合はundefinedになり、単純に全ての要素の和を求めるとNaNになるので
+    // 作成した配列で値が入っていない場合はundefinedになり、単純に全ての要素の和を求めるとNaNになってしまうので判定する
     if (num[i] !== undefined) {
       ans += num[i];
     }
