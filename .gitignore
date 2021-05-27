@@ -1,2 +1,9 @@
 # コンパイル後のjsファイルは不要なため
 *.js
+
+/node_modules
+
+package.json
+package-lock.json
+test.ts
+test.html
