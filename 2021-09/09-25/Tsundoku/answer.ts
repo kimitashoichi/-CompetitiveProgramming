@@ -9,18 +9,6 @@ function tsundoku(N: number, M: number, K: number, A: number[], B: number[]) {
   let booksCount = 0;
   let minutesCount = 0;
 
-  // const getFirstValue = (booksA: number[], booksB: number[]) => {
-  //   const valueOfA = booksA[0];
-  //   const valueOfB = booksB[0];
-  //   if (valueOfA < valueOfB) {
-  //     booksA.shift();
-  //     return valueOfA;
-  //   } else {
-  //     booksB.shift();
-  //     return valueOfB;
-  //   }
-  // }
-
   const checkFirstValue = (booksA: number[], booksB: number[]) => {
     const valueOfA = booksA[0] ? booksA[0] : MAX_TIME;
     const valueOfB = booksB[0] ? booksB[0] : MAX_TIME;
