@@ -1,13 +1,11 @@
 # atCorderのディレクトリとファイル作成用のシェルスクリプト
 
-echo -n 現在の月を入力してください / 例：YYYY-MM:
-read month
-cd $month
+jst_year_month=$(date '+%Y-%m')
+jst_month_day=$(date '+%m-%d')
+cd $jst_year_month
 
-echo -n 今日の日付を入力してください /例：MM-DD:
-read day
-mkdir $day
-cd $day
+mkdir $dayjst_month_day
+cd $dayjst_month_day
 
 echo -n 回答する問題のタイトルを入力してください:
 read question
