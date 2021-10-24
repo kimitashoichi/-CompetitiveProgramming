@@ -1,7 +1,4 @@
 git add .
-echo -n 日付を入力してください / YYYY-MM-DD:
-#入力を受付、その入力を「str」に代入
-read str
-
-git commit -m $str
+jst_ymd_today=$(date '+%Y-%m-%d')
+git commit -m $jst_ymd_today
 git push origin master
