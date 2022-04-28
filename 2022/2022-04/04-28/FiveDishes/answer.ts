@@ -1,5 +1,6 @@
 // 問題URL
 // https://atcoder.jp/contests/abc123/tasks/abc123_b
+// TODO:完全に回答できなかった
 
 function FiveDishes (menu: number[]) {
   let totalTime = 0;
